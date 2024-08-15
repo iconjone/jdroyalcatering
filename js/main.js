@@ -42,6 +42,9 @@
 
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
+		// touchDrag  : false,
+		// pullDrag: false,
+		//  freeDrag: false,
 	    loop:true,
 	    autoplay: true,
 	    margin:0,

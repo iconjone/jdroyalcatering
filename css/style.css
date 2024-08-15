@@ -1957,7 +1957,10 @@ h1, h2, h3, h4, h5,
           border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
           .hero-wrap.hero-wrap-2 .slider-text .breadcrumbs span a {
             color: #fff; }
-
+  .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: auto;
+        touch-action: auto;
+  }
 .owl-carousel {
   position: relative; }
   .owl-carousel .owl-item {
