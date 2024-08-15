@@ -1417,17 +1417,42 @@ button.bg-dark:focus {
   display: -ms-flexbox !important;
   display: flex !important; }
 
+  .d-none {
+    display: none !important; 
+  }
+
+  @media (max-width: 576px) {
+    .d-sm-none {
+      display: none !important; } 
+    .d-sm-inline {
+      display: inline !important; }
+  
+    }
+
+    @media (min-width: 768px) {
+      .d-md-none {
+        display: none !important; } 
+    
+        .d-md-inline {
+          display: inline !important; }
+    
+      
+      }
+
 @media (min-width: 576px) {
   .d-sm-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important; } }
+    display: flex !important; } 
+
+  }
 
 @media (min-width: 768px) {
   .d-md-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important; } }
+    display: flex !important; }   
+  }
 
 .justify-content-end {
   -webkit-box-pack: end !important;
